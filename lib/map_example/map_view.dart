@@ -24,22 +24,6 @@ class _MapViewState extends State<MapView> {
     zoom: 13,
   );
 
-  // static const CameraPosition anotherPosition =
-  //     CameraPosition(target: LatLng(29.150018, 35.4087333), zoom: 10);
-  // BitmapDescriptor? customIcon;
-
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   getMarker();
-  // }
-  //
-  // getMarker() async {
-  //   Unit8List markerIcon =
-  //       await getBytesFromAsset('assets/images/app_logo.png', 100);
-  //   customIcon = BitmapDescriptor.fromBytes(markerIcon);
-  // }
-
   Set<Marker> markers = {};
 
   @override
